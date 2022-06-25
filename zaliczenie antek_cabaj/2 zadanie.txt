@@ -1,0 +1,11 @@
+$ echo 'zaliczenie' > Cabaj
+$ git status
+
+$ git commit -m "zmodyfikowany.txt"
+$ git add zmodyfikowany.txt
+
+$ git status
+
+$ git remote add origin https://github.com/Antascdv/remotecdv.git
+
+$ git push origin master

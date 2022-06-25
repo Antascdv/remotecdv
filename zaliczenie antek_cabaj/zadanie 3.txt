@@ -1,0 +1,8 @@
+Select * from coffeshop 
+where product in (‘latte’, ‘long black’) and city not in (‘philadelphia’);
+
+Select  Product * from coffeshop 
+where Customer ref in (‘william thompson_86’, ‘mark taylor_113’);
+
+Select distinct City from coffeshop 
+where Product in ('flat White', 'cappuccino');
